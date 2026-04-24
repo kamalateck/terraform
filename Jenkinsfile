@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_ID = 'rock-position-455809-m2'
+        PROJECT_ID = 'new-dev-492605'
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account') // Service account credential
     }
 
